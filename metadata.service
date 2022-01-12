@@ -1,0 +1,15 @@
+[Unit]
+Description=MetadataServer
+
+[Service]
+ExecStart=/var/www/metadata/index.js
+Restart=always
+User=nobody
+
+Group=nogroup
+Environment=PATH=/usr/bin:/usr/local/bin
+Environment=NODE_ENV=production
+WorkingDirectory=/var/www/metadata
+
+[Install]
+WantedBy=multi-user.target
