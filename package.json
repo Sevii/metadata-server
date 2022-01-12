@@ -1,0 +1,12 @@
+{
+  "name": "metadata-server",
+  "version": "1.0.0",
+  "description": "Metadata server for immutableX minting",
+  "main": "index.js",
+  "author": "sledge@guavalabs.io",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
